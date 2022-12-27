@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <title>Weartake</title>
+    </head>
+    <body>
+        <header class="menu-header">
+            <div class="container-navbar">
+                <nav class="navbar-header">
+                    <h1 class="title-header">Weartake</h1>
+
+                    <ul class="ul-navbar">
+                        <li class="li-navbar">
+                            <a href="#" id="secao-todos">Todos</a>
+                        </li>
+                        <li class="li-navbar">
+                            <a href="#">Acessórios</a>
+                        </li>
+                        <li class="li-navbar">
+                            <a href="#">Calçados</a>
+                        </li>
+                        <li class="li-navbar">
+                            <a href="#">Camisetas</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="container">
+            <main class="main-content"></main>
+            <section class="section-class">
+                <div class="container-pesquisa">
+                    <input
+                        type="text"
+                        class="text-input"
+                        placeholder="Digite aqui sua pesquisa"
+                    />
+                    <button class="btn-pesquisa">Pesquisar</button>
+                </div>
+                <div class="container-carrinho">
+                    <h2 class="title-carrinho">Carrinho de compras</h2>
+                    <div id="carrinho-div"></div>
+                    <ul class="carrinho-ul"></ul>
+                    <ul class="total-ul"></ul>
+                </div>
+            </section>
+        </div>
+
+        <script src="./js/database.js"></script>
+        <script src="./js/index.js"></script>
+    </body>
+</html>
