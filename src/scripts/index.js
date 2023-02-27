@@ -1,9 +1,13 @@
 const main = document.querySelector(".main-content");
 
+listaDeCards(data);
+
 function listaDeCards(array) {
     const ul = document.createElement("ul");
     ul.classList.add("ul-main-class");
     main.appendChild(ul);
+
+    const btnAcessorios = document.querySelector("#secao-acessorios");
 
     for (let i = 0; i < array.length; i++) {
         const li = document.createElement("li");
@@ -34,7 +38,6 @@ function listaDeCards(array) {
     }
     carrinhoVazio();
 }
-listaDeCards(data);
 
 function criaEvento(id) {
     const button = document.getElementById(id);
