@@ -19,7 +19,7 @@
  <h3>1 - AO entrar no site do e-commerce, esta é a página carregada</h3>
  <img src="./src/readme/Home.png">
  
- <h3>2 - Os card possuem um efeito ao passar o cursou por cima</h3>
+ <h3>2 - Os card possuem um efeito ao passar o cursor por cima</h3>
  <img src="./src/readme/Product_Card.png">
 
  <h3>3 - O carrinho de itens ao adicionar mais de 2 itens terá um scroll!</h3>
