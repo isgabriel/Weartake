@@ -1,53 +1,51 @@
 # Weartake
 
-## Weartake / isgabriel
+![GitHub repo size](https://img.shields.io/github/repo-size/isgabriel/weartake_frontend?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/isgabriel/weartake_frontend?style=for-the-badge)
 
-  <p>Weartake é um e-commerce de vestiário. O usuário que acessar o site conseguirá visualizar os produtos disponíveis para venda e seu carrinho de compras, que se inicia vazio mas vai crescendo à medida que itens serão adicionados. Existe, em cada item do carrinho, um botão para remover item. A barra de pesquisa e as seções são apenas para fins de ilustração. É feito um cálculo do valor total de acordo com os itens que são adicionados/removidos do carrinho e esse valor é atualizado a cada alteração.</p>
+## Seções do projeto
+
+-   [Descrição do Projeto](#descrição-do-projeto)
+-   [Técnicas e Tecnologias utilizadas no Projeto](#🔨-técnicas-e-tecnologias-utilizadas-no-projeto)
+-   [Ajustes e Melhorias](#🚀-ajustes-e-melhorias)
+-   [Colaboradores](#🤝-colaboradores)
+
+
+## ✔️ Descrição do projeto
+
+<p>E-commerce de vestiário com possibilidade de adicionar/remover itens do carrinho de comprar. Quantidade e preço total aparecem e são atualizados ao adicionar/remover itens ao carrinho</p>
+
+<figure>
+    <img src="./src/readme/Home.png">
+    <figcaption>Página inicial do e-commerce.</figcaption>
+</figure>
+<p> </p>
+<br/>
+
+<figure>
+    <img src="./src/readme/Cart.png">
+    <figcaption>Carrinho de compras com itens dentro.</figcaption>
+</figure>
+<br/>
   
-  ## Tecnologias
-  <p>Aqui estão as tecnologias usadas no projeto:</p>
+## 🔨 Técnicas e Tecnologias utilizadas no Projeto
   
-  - HTML semântico
-  - CSS
-  - Javascript (DOM)
-  
-   ## Serviço usado
-   - Github
- 
- ## Como usar
-  
- <h3>1 - AO entrar no site do e-commerce, esta é a página carregada</h3>
- <img src="./src/readme/Home.png">
- 
- <h3>2 - Os card possuem um efeito ao passar o cursor por cima</h3>
- <img src="./src/readme/Product_Card.png">
+-  `HTML`
+-  `CSS`
+-  `Javascript`
+-  `Figma`
+-  `Git`
+-  `Github`
 
- <h3>3 - O carrinho de itens ao adicionar mais de 2 itens terá um scroll!</h3>
- <img src="./src/readme/Cart.png">
+## 🚀 Ajustes e melhorias
 
- <h3>4 - O carrinho ao remover um item terá seu valor total atualizado</h3>
- <img src="./src/readme/Cart_Removed_Item.png">
+O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-## Funcionalidades
+-   [ ] Filtrar itens por seções;
+-   [ ] Responsividade;
+-   [ ] Limitar quantidade de itens no carrinho e adicionar quantidade de cada item ao card do item com botão para adicionar ou diminuir também;
 
--   Adicionar itens ao clicar no botão "Adicionar ao carrinho";
--   Remover itens do carrinho ao clicar no botão "remover";
--   Cálculo da quantidade total de itens no carrinho;
--   Cálculo do valor total dos produtos no carrinho.
-
-## Links
-
--   Deploy: https://weartake-delta.vercel.app
--   Repository: https://github.com/isgabriel/Weartake
-
-## Futuras implementações
-
--   Filtrar itens ao clicar nas seções do header;
--   Tornar todo o projeto responsivo para todos os tamanhos de tela;
--   Limitar para apenas um item de cada da lista no carrinho e ter a quantidade de itens do mesmo tipo dentro do card de cada item;
--   Botão para adicionar e diminuir a quantidade de itens de cada item dentro do carrinho.
-
-## Autores
+## 🤝 Colaboradores
 
 <table>
   <tr>
@@ -55,9 +53,12 @@
       <a href="http://github.com/isgabriel">
         <img src="https://avatars.githubusercontent.com/u/100328347?v=4" width="100px;" alt="Foto de Gabriel Montenegro no GitHub"/><br>
         <sub>
-          <b>isgabriel</b>
+          <b>Gabriel Montenegro</b>
         </sub>
       </a>
     </td>
   </tr>
 </table>
+
+[⬆ Voltar ao topo](#weartake)<br>
+
